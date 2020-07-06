@@ -1,0 +1,42 @@
+body {
+    display: flex;   
+    justify-content: center;
+    background-color: #DCDCDC;
+    align-items: center;
+}
+h1 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-align: center;
+}
+p {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+input {
+    width: 100%;
+    line-height: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    padding: 2px;
+}
+.container{
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50%;
+}
+button {
+    background-color: #00FA9A;
+    width: 100%;
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 30;
+    color: #FFF;
+}
+
