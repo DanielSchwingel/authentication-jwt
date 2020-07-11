@@ -22,12 +22,7 @@ input {
     font-weight: 400;
     padding: 2px;
 }
-.container{
-    background-color: #FFF;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 50%;
-}
+
 button {
     background-color: #00FA9A;
     width: 100%;
@@ -39,4 +34,26 @@ button {
     font-size: 30;
     color: #FFF;
 }
+
+.container{
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50%;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
 

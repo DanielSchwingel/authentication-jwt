@@ -19,7 +19,7 @@ routes.post('/login', (req, res) => {
         );
         return res.json({login, token});
     }
-    return res.status(401).json({message: 'Unauthorized'});
+    return res.status(400).json({ error : 'Usuário ou senha inválidos!' });
 });
 
 routes.get('/customers', authentication, (req, res, next) => {

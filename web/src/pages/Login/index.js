@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import './styles.css';
+import logoImg from '../../assets/images/jwt_logo.svg';
 import api from '../../services/api';
 
 function Login() {
@@ -15,13 +16,16 @@ function Login() {
             localStorage.setItem('@AuthJWT:Token', response.data.token);
             history.push('/customers');
         } catch (error) {
-            alert(error);
+            alert('Usuário ou senha inválidos!');
         }
 
     }
     return (
         <div className="container">
-            <h1>Login</h1>
+            <div className="title">
+                <img src={logoImg} alt="Logo do JWT"/>
+                <h1>Login</h1>
+            </div>
             <p>Login </p>
             <input 
                 type="text" 
