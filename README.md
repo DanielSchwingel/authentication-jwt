@@ -3,7 +3,7 @@
   Authentication JWT (JSON Web Token) example
 </h4>
 <p align = "center">
-  <img alt = "Demo no Truco Score" src = "https://i.imgur.com/z9fl3ET.png">
+  <img alt = "Demo no Truco Score" src = "https://i.imgur.com/z9fl3ET.png" width="500" height:"318">
 
 </p>
 <h3>:muscle: Project</h3> 
